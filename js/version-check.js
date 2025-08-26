@@ -9,7 +9,7 @@
 document.addEventListener('DOMContentLoaded',()=>{
     const e=document.createElement('p');
     e.className='text-gray-500 text-sm mt-1 text-center md:text-left';
-    e.innerHTML='版本: <span class="text-green-500">已移除检查</span>';
+    e.innerHTML='版本: <span class="text-green-500">1.10</span>';
     const f=document.querySelector('.footer p.text-gray-500.text-sm')||document.querySelector('.footer .container div');
     f&&f.appendChild(e);
 });
